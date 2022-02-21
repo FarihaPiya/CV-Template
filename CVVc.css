@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background-color: grey;
+}
+img{
+    border-radius:100px;
+    height:200px;
+    width:200px;
+    margin-left:40px;
+    margin-right:40px;
+    margin-top:20px;
+    position: relative;
+    border:1px solid black;
+}
+.CV{
+    height:100%;
+    display:grid;
+    grid-template-columns: 0.5fr 2fr;
+    grid-column-gap:10px;
+    
+}
+.CV > div{
+    background-color: grey;
+    padding:10px;
+
+
+
+}
+.CV > div:nth-child(odd){
+    background-color: rgb(17, 16, 77);
+
+}
+.CV-right > div{
+    background-color:rgb(212, 212, 245);
+    padding:10px;
+
+}
+.CV-right > div:nth-child(odd){
+    background-color:rgb(230, 230, 248);
+
+}
+.CV-right{
+    display:grid;
+    grid-template-rows: 0.5fr 0.75fr 1fr;
+    grid-row-gap:10px;
+    grid-auto-rows: minmax(100px,auto);
+
+}
+.CV-head h3{
+    float:left;
+    margin-top:10px;
+    margin-left: 10px;
+    letter-spacing: 2px;
+    border-bottom:3px solid green;
+    letter-spacing: 2px;
+    color:blanchedalmond;
+}
+.CV-head > div{
+    padding:10px;
+    
+}
+.right-info h4{
+    margin-top:10px;
+    margin-left: 10px;
+    border-bottom:2px solid rgb(16, 27, 16);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    letter-spacing:2px;
+
+}
+.CV-right-5-1{
+    padding:10px;
+}
+.CV-right-5-2{
+    padding:30px;
+}
+.CV-right-5-2 ul{
+    list-style:none;
+    color:rgb(88, 86, 86);
+    line-height:200%;
+}
+.CV-info ul{
+position :relative;
+}
+.CV-info ul li{
+    position :relative;
+    margin: 10px 0;
+    cursor:pointer;
+    }
+    .CV-info ul li .icon{
+        display:inline-block;
+        width:30px;
+        font: size 18px;
+        color:rgb(14, 248, 14);
+        }
+.CV-skills .percent{
+    
+            position:relative;
+            width:100%;
+            height:6px;
+            background:rgb(114, 109, 109);
+            margin-top:6px;
+            display:block;
+        
+        
+        }
+.CV-skills .percent div{
+    
+    position:relative;
+    top:0;
+    left:0;
+    height:100%;
+    background:greenyellow;
+
+
+}
+.CV-Language .percent{
+    
+    position:relative;
+    width:100%;
+    height:6px;
+    background:rgb(114, 109, 109);
+    margin-top:6px;
+    display:block;
+
+
+}
+.CV-Language .percent div{
+    
+    position:relative;
+    top:0;
+    left:0;
+    height:100%;
+    background:greenyellow;
+
+
+}
+.CV-info,.CV-skills,.CV-Language{
+    margin-top:30px;
+}
+.textt{
+    color:cornsilk;
+}
+.CV-skills ul li{
+    position :relative;
+    margin: 10px 0;
+    cursor:pointer;
+
+
+}
+.CV-Language ul li{
+    position :relative;
+    margin: 10px 0;
+    cursor:pointer;
+
+
+}
+.textt a{
+    color:cornsilk;
+
+}
+
+
+
+
+
+
+
